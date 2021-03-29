@@ -1,0 +1,7 @@
+/* Ho dato width and height alle img perche le ho scaricate da google con dimensioni diverse
+   Sono consapevole che questo potrebbe creare problemi di ridimensionamento delle img per ora 
+   posso utilizzare solo questi sellettori + attributi per gestire le img */
+img {
+  width: 225px;
+  height: 225px;
+}

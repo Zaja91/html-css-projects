@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  height: 200px;
+  line-height: 200px;
+  background-color: #ffc0cb;
+}
+
+[class*="col-"] {
+  border: 1px solid black;
+  height: 100%;
+  text-align: center;
+}
+
+.row:nth-child(5) .col-6 {
+  padding: 4px;
+}
+
+.row:nth-child(5) .col-6 [class*="col-"] {
+  border: 1px solid white;
+  background-color: #f07f80;
+  line-height: 192px;
+}

@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/natural-pattern.png);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-image {
+  background-image: url(../img/natural-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  border: 10px solid white;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  width: 100%;
+  height: 40px;
+  background-color: grey;
+  text-align: center;
+}
+
+.links li {
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 15px;
+}
+
+.links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.links li:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+/* main content */
+
+.row {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.col {
+  float: left;
+  margin: auto;
+}
+
+.col-1-3, .col-3-3 {
+  width: 20%;
+}
+
+.col-2-3 {
+  width: 50%;
+  margin: 0 5%;
+}
+
+.widget, .three-column, .organic-theme {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.widget {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.organic-para {
+  color: green;
+}
+
+.middle-section-title, 
+.widget-title, 
+.left-widget-title {
+  margin-bottom: 10px;
+}
+
+/* footer */
+
+.credits {
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.credits-title {
+  color: lightgrey;
+  font-weight: 600;
+  padding: 5px 5px;
+  border-bottom: 2px solid lightgray;
+}
+
+.facebook, .instagram, .github {
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.instagram {
+  margin-left: 250px;
+  margin-right: 250px;
+}

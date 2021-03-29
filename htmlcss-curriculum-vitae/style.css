@@ -1,0 +1,25 @@
+body {
+  padding: 0% 25%;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  background-color: #F0F0F0;
+}
+
+hr, h2 {
+  color: orange;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 13px;
+}
+
+.footer {
+  font-size: 10px;
+}

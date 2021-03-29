@@ -1,0 +1,72 @@
+body {
+  background-image: url("../img/wood.jpg"); 
+  /* ../ torna indietro di una cartella  */
+}
+
+.container {
+  margin: auto;
+  padding: 0 4%;
+}
+
+#logo-content {
+  padding: 10px;
+}
+
+#gmail-logo {
+  height: 100px;
+  padding-left: 1%;
+  vertical-align: middle;
+}
+
+#gmail-name {
+  font-size: 24px;
+  color: white;
+  padding-left: 1%;
+}
+
+.ruler {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.unread {
+  color: white;
+  font-size: 24px;
+  margin: 5px 0 0 0;
+}
+
+.unread-count {
+  display: inline-block;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.unread-email {
+  background-color: lightgrey;
+  padding: 4px 0;
+  border: 1px solid black;
+}
+
+.read-email {
+  background-color: white;
+  border: 1px solid black;
+  padding: 4px 0;
+}
+
+.email-object {
+  font-weight: 800;
+}
+
+.email-text {
+  color: grey;
+}
+
+#footer-sigla {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+#credits {
+  font-size: 26px;
+}

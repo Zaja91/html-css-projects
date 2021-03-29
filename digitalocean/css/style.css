@@ -1,0 +1,257 @@
+/* General Style */
+
+.max-1170 {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.p_style {
+  font-weight: 900;
+  font-size: 1.7rem;
+  color: grey;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.bg-blue {
+  background-color: #0040bd;
+}
+
+/* Top Header */
+
+nav {
+  height: 65px;
+}
+
+
+.lh_65 {
+  height: 65px;
+  line-height: 65px;
+}
+
+.logo img {
+  width: 170px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav_links ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.nav_links ul .btn {
+  color: #0065ff;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.fa-chevron-down {
+  margin-left: -.9rem;
+}
+
+.glyphicon-menu-hamburger {
+  font-size: 1.9rem;
+  color: #0065ff;
+}
+
+/* Bottom Header */
+
+.hero {
+  background-image: url("../img/hero.svg");
+  contain: content;
+  padding: 4rem 15px 6rem 0;
+}
+
+.registration {
+  background-color: white;
+  border-radius: 5px;
+  padding: 3rem 1rem;
+}
+
+.create_account {
+  width: 100%;
+  background-color: #579aff;
+  color: white;
+}
+
+.sign_google {
+  width: 100%;
+}
+
+.header_info {
+  color: white;
+}
+
+.header_info h1 {
+  margin-top: 0;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.header_info p {
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 1.6rem;
+}
+
+.registration {
+  font-weight: 600;
+}
+
+
+.registration .blue_h {
+  color: #006aff;
+  margin-top: 0;
+}
+
+.sign_up {
+  font-size: 1.3rem;
+  opacity: .7;
+}
+
+.registration .terms {
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  display: inline-block;
+}
+
+.registration a {
+  text-decoration: underline;
+}
+
+.sign_google span:last-child {
+  margin-left: -14px;
+}
+
+/* Top Customers Section */
+
+.bg-grey {
+  background-color: #f3f5f9;
+  padding: 2rem 0;
+}
+
+.customers > div {
+  padding: 0 0;
+  font-weight: 900;
+}
+
+.customers h4 {
+  color: grey;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+/* Configuration Section */
+
+.info_deploy {
+  font-size: 1.7rem;
+  color: grey;
+  opacity: .9;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.inner_box {
+  padding-left: 0;
+}
+
+.inner_box h5 {
+  font-weight: 600;
+}
+
+.cluster {
+  padding: 3rem 0;
+}
+
+.deploy ul {
+  float: left;
+  list-style-type: none;
+  border-left: 1px solid grey;
+  padding-left: .5rem;
+  color: grey;
+  opacity: .8;
+}
+
+.deploy ul li {
+  line-height: 4rem;
+  padding-left: 1rem;
+} 
+
+/* Developers Section */
+
+.developers img {
+  width: 100%;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+/* Pricing Section */
+
+.pricing {
+  padding: 5rem 0;
+}
+
+.pricing h3 {
+  padding-bottom: 4rem;
+}
+
+/* Server Location Section */
+
+.server_location {
+}
+
+/* Media query */
+
+@media screen and (max-width: 767px) {
+  .hero {
+    padding: 6rem 15px 6rem 15px;
+  }
+
+  .header_info {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .deploy {
+    padding-left: 3rem;
+  }
+
+  .deploy ul {
+    padding-left: 0;
+  }
+
+  .inner_box {
+    padding-left: 3rem;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .deploy {
+    padding-left: 10rem;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  /* . {
+    width: 1170px;
+    margin: 0 auto;
+  } */
+
+  .bg-hero {
+    width: 100%;
+    background-image: url("../img/hero.svg");
+  }
+}
+
+/* Debug */
+
+/* .bg-blue {
+  height: 200px;
+  background-color: green;
+  border: 1px solid red;
+} */
